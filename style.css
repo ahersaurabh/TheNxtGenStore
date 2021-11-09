@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+.PSlogo{
+    width: 50px;
+    cursor:pointer;
+    margin: 30px, 0;
+
+}
+.Xboxlogo{
+    width: 50px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+.Menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+
+}
+nav ul li a:hover{
+    color: #ff5ea2;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:100px 0;
+
+}
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+.col-1 h2{
+    font-size: 54px;
+}
+.col-1 h3{
+    font-size: 30px;
+    color:#707070;
+    font-weight: 100;
+    margin: 20px0 10px
+}
+.col-1 h4{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 100;
+
+}
+button{
+    width: 140px;
+    height: 25px;
+    border: 0;
+    padding: 12px,12px;
+    outline: none;
+    color:#000000;
+    border-radius: 6px;
+    transition: background 0.5s;
+
+}
+.row {
+    padding: top 0px;
+}
+
+
+
+button:hover{
+    background: #9e8c8c ;
+    
+
+}
+.col-1::after{
+    content:'';
+    width:10px;
+    height:57%;
+    background: linear-gradient(#1cadc7,#0000FF);
+    position: absolute;
+    left: -40px;
+    top: 8px;
+
+}
+.col-2{
+    position:relative;
+    flex-basis: 60px;
+    
+    display: flex;
+    align-items: center;
+    
+}
+.small container{
+    width: 100%;
+    min-height: 100px;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.row2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:100px 0;
+
+}
+.col-3{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 0px;
+
+}
+.col-3 h2{
+    font-size: 54px;
+
+}
+.col-3 h3{
+    font-size: 30px;
+    color:#707070;
+    font-weight: 100;
+    margin: 20px0 10px
+
+
+}
+.col-3 h4{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 100;
+}
+.col-3::after{
+    content:'';
+    width:10px;
+    height:57%;
+    background: linear-gradient(#1cadc7,#0000FF);
+    position: absolute;
+    left: -40px;
+    top: 8px;
+
+}
+.col-4 img{
+    max-width: 100%;
+    padding : 60% 0;
+    
+}
+.col-4{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+
+.small container2{
+    width: 100%;
+    min-height: 100px;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.col-6 img{
+    max-width: 100%;
+    padding : 60% 0;
+    
+}
+.col-6{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-5{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 18px;
+    
+}
+.col-5 h2{
+    font-size: 54px;
+}
+.col-5 h3{
+    font-size: 30px;
+    color:#707070;
+    font-weight: 100;
+    margin: 20px 10px;
+}
+.col-5 h4{
+    font-size: 16px;
+    color:#000000;
+    font-weight: 100;
+}
+
+.col-5::after{
+    content:'';
+    width:10px;
+    height:57%;
+    background: linear-gradient(#1cadc7,#0000FF);
+    position: absolute;
+    left: -40px;
+    top: 8px;
+
+}
+.row3{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:100px 0;
+}
+
+
+
+
+/* .footer{
+    background-color: #000;
+    color: #1cadc7;
+    font-size: 14px;
+    padding: 60px 0 20px;
+
+
+}
+.footer p{
+    color: #707070;
+
+}
+footer h3{
+    color: #0000FF;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2{
+    min-width: 250px;
+    margin-bottom: 20px;
+
+}
+.footer-col-1{
+    flex-basis: 30%;   
+}
+.footer-col-2{
+    flex:1;
+    margin-bottom: 20px;
+} *
+    min-width: 300px
+}
+
+/*------new------->*/
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+}
+html {
+    display: table;
+    margin: auto;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color:#79B4B7;
+    font-family:Verdana, Tahoma, sans-serif;
+    
+}
+h1 {
+    font-family:monospace;
+    text-shadow: black;
+}
+.btn{
+    background-color: beige;
+    color: black;
+}
+a{
+    color:hotpink;
+}

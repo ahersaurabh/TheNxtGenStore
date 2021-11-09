@@ -1,0 +1,372 @@
+.PSlogo{
+    width: 50px;
+    cursor:pointer;
+    margin: 30px, 0;
+
+}
+.Xboxlogo{
+    width: 50px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    font-size: 14px;
+    top: 0;
+    left: 0;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 10px;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active{
+    color: blueviolet;
+}
+
+#home h2{
+
+    font-size: 54px;
+}
+#home{
+    background-image: url("images/forhomepage.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size:100%;
+    background-position:top 60px center ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left:50px;
+    padding-bottom: 80px;
+
+
+}
+h3{
+    font-size: 30px;
+    color:white;
+    font-weight: 100;
+    margin: 20px0 10px
+}
+h4{
+    font-size: 16px;
+    color: whitesmoke;
+    font-weight: 100;
+
+}
+h2,p{
+    color: whitesmoke;
+}
+
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: black;
+    color:white;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+button:hover{
+    background-color:blueviolet;
+}
+hr{
+    width: 500px;
+    height: 5px;
+    background-color: green ;
+}
+#new .one .img{
+width: 100%;
+height: 100%;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: 100%;
+position: relative;
+
+}
+#new .details h2{
+    
+    color: white;
+
+}
+#new .one .details{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease;
+
+}
+#new .one:hover .details{
+    cursor: pointer;
+    background-color: rgb(255,250,250,0.3);
+
+}
+
+#new .one .details button{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: whitesmoke;
+    background:none ;
+    text-transform: uppercase;
+    border-bottom: 1px solid greenyellow;
+    padding : 2.5px;
+}
+#new .one .details button:hover{
+    color: whitesmoke;
+    border-bottom: 1px solid blueviolet;
+
+}
+#new .one .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} 
+#products .container h3 {
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: 500;
+}
+#products .container p{
+    color:lightseagreen;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: 500;
+    font-size: 150%;
+
+}
+#products .color{
+    color:grey ;
+}
+#products .price{
+    color: black;
+}
+#products .row button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: black;
+    color:white;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+#products button:hover{
+    background-color:blueviolet;
+}    
+#products .img-fluid{
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    position: relative;
+    
+}
+#products .row button {
+    max-width: 100px;
+    max-height: 50px;
+    align-items: center;
+    align-content: center;
+    background-position:center center ;
+    border-radius: 15px;
+    
+    
+    
+    
+}
+.products{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.products .product img{
+    transition: 0.4s all;
+}
+
+
+.products .product .buybtn{
+    transform: translateY(0) ;
+    opacity: 0;
+    border-bottom: whitesmoke;
+    border-radius: 15px;
+    
+    
+}
+.product .buybtn{
+    height: 40px;
+    width: 80px;
+    border-bottom: whitesmoke;
+}
+#banner .banner h4{
+    color:whitesmoke ;
+    font-size: 200%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#banner .banner h1{
+    color: gainsboro;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+#banner{
+    background-image: url("images/forbackground.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size:100%;
+    background-position:top 70px center ;
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left:50px;
+    padding-bottom: 80px;
+
+  
+}
+.row .footer1 p{
+    color: black;
+     
+    
+
+}
+.footer1 {
+    background-color:white;
+    align-items: center;
+    align-content: center;
+    
+}
+.copyright .rowcontainer p{
+    text-align: center;
+    color: black;
+}
+.navnamecontroll h7 {
+
+    color:blueviolet;
+    padding-left: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+#consoleproducts .container h3{
+    color:green;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 250%;
+}
+#consoleproducts .container p{
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*google img*/
+#homeforconsole{
+    background-image: url("images/foruserlogin.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size:100%;
+    background-position:top 60px center ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left:50px;
+    padding-bottom: 80px;
+
+
+}
+#homeconsoles{
+    background-image: url("images/consolewall2.webp");
+    width: 100%;
+    height: 100vh;
+    background-size:100%;
+    background-position:top 60px center ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left:50px;
+    padding-bottom: 80px;
+    
+}
+#homeforgames{
+    background-image: url("images/Battlefieldcover.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size:100%;
+    background-position:top 60px center ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left:50px;
+    padding-bottom: 80px;
+    
+}
+#homeforgames h2{
+    color:darkorange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px grey;
+
+
+
+
+}
+#homeforgames h3{
+    color: darkslategray;
+}
+#banner2 .banner2 h4{
+    color:lightyellow;
+    font-size: 200%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+}
+#banner2 .banner2 h1{
+    color: lightyellow;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+#banner2{
+    background-image: url("images/banner2.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size:100%;
+    background-position:top 70px center ;
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left:50px;
+    padding-bottom: 80px;
+
+}  
+.rowcontainer3 p{
+    font-size: 2px;
+}
+.footersa p{
+    padding-top: 30px;
+}
+

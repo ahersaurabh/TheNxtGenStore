@@ -1,0 +1,39 @@
+.form-div{
+    margin: 50px auto 50px;
+    padding: 25px 15px 10px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size : 1.1em;
+
+}
+.form-group .submit{
+
+  background-color: maroon; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.2s;
+  
+  
+}
+.submit:hover{
+    background-color: #FFFDD0; /* Green */
+    color: white;
+
+}
+.form-control:focus{
+    box-shadow:none;
+}
+.form-div.login{
+    margin-top: 100px;
+}
+.logout a{
+    text-decoration:none ;
+
+
+}
+
